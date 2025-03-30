@@ -1,6 +1,6 @@
 <?php
 session_start();
-include 'db_connect.php';
+include 'includes/db_connect.php';
 
 if(isset($_POST['login'])) {
     $email = $_POST['email'];
@@ -23,7 +23,7 @@ if(isset($_POST['login'])) {
 <html>
 <head>
     <title>Login</title>
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
     <div class="container">
